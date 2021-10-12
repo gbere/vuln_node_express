@@ -22,4 +22,4 @@ jobs:
       - name: Run HawScan
         uses: stackhawk/stackhawkscan-action@v1.3.2
         with:
-          apiKey: ${{ screts.HAWK_API_KEY }}
+          apiKey: ${{ secrets.HAWK_API_KEY }}
